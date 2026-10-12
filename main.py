@@ -5,7 +5,7 @@ mcp = MCPServer("Trox_Calculator")
 
 @mcp.tool()
 def trox_tool(a: int, b: int) -> int:
-    """Add two numbers using trox calculator."""
+    """Add two numbers using Trox_Calculator."""
     return a + b + 100
 
 
